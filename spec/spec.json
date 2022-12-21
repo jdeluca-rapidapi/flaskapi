@@ -31,7 +31,7 @@
          }
       ]
    },
-   "x-gateways": [
+   "x-gateways": [ 
       {
         "url": "0s0iza6e20.execute-api.us-east-1.amazonaws.com/test"
       }
