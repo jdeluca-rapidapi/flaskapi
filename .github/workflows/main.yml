@@ -53,7 +53,7 @@ jobs:
         uses: fjogeleit/http-request-action@v1.9.0
         with:
           url: https://ed5u76i86j.execute-api.us-east-1.amazonaws.com/prod/github
-          customHeaders: '{"instance" : "jeff"}'
+          customHeaders: '{"instance" : "james"}'
           method: POST
           contentType: "application/json"
           file: ${{ steps.changed-spec-files.outputs.modified_files }}
@@ -70,7 +70,7 @@ jobs:
         with:
           test: 'test_de090ff3-c343-4ff7-86db-32d104f7f691'
           location: 'AWS-US-EAST-1'
-          instance: 'jeff.hub.rapidapi'
+          instance: 'james.hub.rapidapi'
           #environment: 'ENV_ID(OPTIONAL)'
 
       - name: Show Testing Results
