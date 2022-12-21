@@ -1,4 +1,4 @@
-name: Deploy to RapidAPI
+name: Deploy to RapidAPI 
 
 # Controls when the workflow will run
 on:
